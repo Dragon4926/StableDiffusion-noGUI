@@ -32,8 +32,15 @@
   <li>Python 3.x</li>
   <li>Jupyter Notebook</li>
   <li>Google Colab (optional but recommended for GPU/TPU support)</li>
-  <li>Dependencies listed in the notebook (installable via <code>pip</code> or <code>conda</code>)</li>
+  <li>Dependencies listed in the notebook(already mentioned in the code segment no extra headache needed)(installable via <code>pip</code> or <code>conda</code>):</li>
+  <ul>
+    <li>AutoPipeline</li>
+    <li>diffusers</li>
+    <li>respective model (loRa optional)[like AbyssOrangeMixv3]</li>
+    <!-- Add more dependencies as needed -->
+  </ul>
 </ul>
+
 
 <h2>References</h2>
 
@@ -49,7 +56,7 @@
 
 <h2>Author</h2>
 
-<p>This documentation was prepared by [Your Name] and is intended to accompany the <code>stablediffusion.ipynb</code> notebook for the purpose of guiding users through the process of using the Diffusers repository from Hugging Face without GUI. For any questions, feedback, or issues related to this repository, please contact the author directly.</p>
+<p>This documentation was prepared by @dragon4926 and is intended to accompany the <code>stablediffusion.ipynb</code> notebook for the purpose of guiding users through the process of using the Diffusers repository from Hugging Face to use stable diffusion without GUI. For any questions, feedback, or issues related to this repository, please contact the author directly.</p>
 
 </body>
 </html>
